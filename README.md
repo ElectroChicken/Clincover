@@ -15,7 +15,7 @@ positional arguments:
 optional arguments:  
   -h,&emsp; --help      &emsp;&emsp;&emsp;&emsp;&emsp;      show this help message and exit  
   -p,&emsp; --program   &nbsp;&emsp;&emsp;&emsp;      check for program coverage  
-  -r,&emsp;&nbsp; --rule      &emsp;&emsp;&ensp;&emsp;&emsp;&emsp;      check for rule coverage  
+  -r,&emsp;&nbsp; --rule      &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;      check for rule coverage  
   -d,&emsp; --definition &emsp;&emsp;&emsp;      check for definition coverage  
   -l,&emsp;&nbsp; --loop       &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;     check for loop coverage  
   -c,&emsp; --component  &emsp;&emsp;     check for component coverage  
@@ -23,3 +23,10 @@ optional arguments:
                         information like locations  
   -t TESTCASES [TESTCASES ...],&emsp; --testcases TESTCASES [TESTCASES ...]&emsp;&emsp;
                         The testcase files
+
+## Examples
+There is an example program as well as test case for both the propositional version and the extended version showcasing different language constructs.  
+Example of computing all five coverage metrics:  
+```bash
+python clincover.py examples/example_program.lp -t examples/example_testcase.lp -p -r -d -l -c -v
+```

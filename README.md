@@ -23,6 +23,9 @@ optional arguments:
                         information like locations  
   -t TESTCASES [TESTCASES ...],&emsp; --testcases TESTCASES [TESTCASES ...]&emsp;&emsp;
                         The testcase files
+  
+  
+The usage for clincovar.py is the same as clincover.py.
 
 ## Examples
 There is an example program as well as test case for both the propositional version and the extended version showcasing different language constructs.  
